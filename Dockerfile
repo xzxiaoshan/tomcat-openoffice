@@ -1,5 +1,5 @@
-FROM docker.io/xzxiaoshan/openoffice:latest
 FROM docker.io/tomcat:8-jdk8 as tomcat
+FROM docker.io/xzxiaoshan/openoffice:latest
 
 MAINTAINER 365384722@qq.com
 
