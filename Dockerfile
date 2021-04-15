@@ -14,4 +14,4 @@ ENV PATH=$PATH:/usr/local/tomcat/bin
 
 EXPOSE 8080
 
-CMD ["catalina.sh", "run"]
+ENTRYPOINT ["catalina.sh", "run"]
